@@ -8,6 +8,7 @@ import { globSync } from 'glob'
 
 export default defineConfig({
     plugins: [react(), generouted()],
+    base: '/vibe-coding-lgtm/',
     server: { port: 1234 },
     css: {
         postcss: {
