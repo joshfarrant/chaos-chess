@@ -1,10 +1,10 @@
-# Primer React Template ⚡⚛️
+# 🌪️ CHAOS CHESS 🌪️
 
-The easiest way to build a prototype from scratch with [Primer React](https://primer.style/react/) and deploy with GitHub Pages. 
+**The most unhinged chess variant you've never asked for!**
 
-Perfect for quick prototyping with code, and setup to be visible only for signed-in Hubbers. Works (mostly) out of the box!
+Welcome to Chaos Chess - where chess meets Balatro-style deckbuilding and reality breaks down completely. This is chess, but every turn you can play cards that fundamentally break the rules of chess in wild and unexpected ways.
 
-*Built using [vite.dev](https://vite.dev/guide/), see their docs if you want to customize any configuration (you shouldn't have to).*
+_Built using [vite.dev](https://vite.dev/guide/), see their docs if you want to customize any configuration (you shouldn't have to)._
 
 ## Get Started (Quick setup - Codespaces)
 
@@ -22,6 +22,7 @@ See instructions
 ```bash
 npm install
 ```
+
 ```bash
 npm run dev
 ```
@@ -36,12 +37,12 @@ If the **PORTS tab** is not visible for you, right-click next to the other tabs 
 
 ### Sharing your prototype
 
-This is a temporary URL that's only live while `npm run dev` is running in your Codespace. 
+This is a temporary URL that's only live while `npm run dev` is running in your Codespace.
 
-To make the URL accessible for others, change its visibility: 
+To make the URL accessible for others, change its visibility:
 
 1. Go to **PORTS** tab
-2. On the Visibility column, right click on **🔒 Private** 
+2. On the Visibility column, right click on **🔒 Private**
 3. Choose **Port visibility** on the dropdown
 4. Change it to **Private to Organization**
 
@@ -75,6 +76,7 @@ You don't need to develop locally, however. You can always keep building in the 
 <summary>See instructions</summary>
 
 ### Start your repository
+
 1. Create a repository for your prototype by clicking **Use this template** > **Create a new repository**
 
 2. Set the repository Owner as **github** so that the deployment is only enabled for Hubbers. Choose whatever name you want.
@@ -102,14 +104,14 @@ You will see the site running on http://localhost:1234
 You need to change a few settings on GitHub.com for your prototype to be deployed & visible. This cannot be automated at the moment unfortunately!
 
 1. Go to your repository, then **Settings > Pages**:
-   - Set GitHub Pages visibility to **Private**
-   - Set Build and deployment source to **GitHub Actions**
+    - Set GitHub Pages visibility to **Private**
+    - Set Build and deployment source to **GitHub Actions**
 
 ![Screenshot showing the UI with the descriptions above](.readme/image.png)
 
 2. Go to your repository, then **Settings > Collaborators and teams**:
-   - Click "Add teams"
-   - Add **github/employees** with at least "Read" permission
+    - Click "Add teams"
+    - Add **github/employees** with at least "Read" permission
 
 ![Manage access UI showing "Add teams" and the @github/employees team already added](.readme/image-2.png)
 
@@ -120,11 +122,11 @@ You need to change a few settings on GitHub.com for your prototype to be deploye
   <details>
   <summary>Extra options</summary>
 
-  - Add your Pages URL to the repository description:
-    - On your repository homepage, click the gear (⚙️) icon next to **About** to edit the description
-    - On the modal check **Use your GitHub Pages website**
-    - Save changes, and your URL will be visible
-  </details>
+-   Add your Pages URL to the repository description:
+    -   On your repository homepage, click the gear (⚙️) icon next to **About** to edit the description
+    -   On the modal check **Use your GitHub Pages website**
+    -   Save changes, and your URL will be visible
+    </details>
 
 </details>
 
@@ -143,9 +145,9 @@ You need to change a few settings on GitHub.com for your prototype to be deploye
 
 ## Tips and Tricks
 
-- Use [Primer React](https://primer.style/components) components to build your layouts, or check [Primer Templates](https://ui.githubapp.com/storybook/?path=/docs/templates-readme--docs&globals=viewport:narrow) (staff only) to get a starting point.
-- To create new pages, duplicate any file in the `/pages` folder and rename it to `whatever.jsx`. Now head to `localhost:1234/whatever` and you will see your new page loaded
-- Also check out [this talk](https://www.youtube.com/watch?v=XroAmpITjsI) from [@heyamie](https://github.com/heyamie) for more tips on prototyping. Some parts are only relevant for NextJS projects, but a lot still applies!
+-   Use [Primer React](https://primer.style/components) components to build your layouts, or check [Primer Templates](https://ui.githubapp.com/storybook/?path=/docs/templates-readme--docs&globals=viewport:narrow) (staff only) to get a starting point.
+-   To create new pages, duplicate any file in the `/pages` folder and rename it to `whatever.jsx`. Now head to `localhost:1234/whatever` and you will see your new page loaded
+-   Also check out [this talk](https://www.youtube.com/watch?v=XroAmpITjsI) from [@heyamie](https://github.com/heyamie) for more tips on prototyping. Some parts are only relevant for NextJS projects, but a lot still applies!
 
 ## Dealing with errors
 
